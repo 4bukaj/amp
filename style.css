@@ -15,8 +15,7 @@ body{
 .container{
     width: 85%;
     margin: auto;
-    border: 2px solid var(--secondary);
-    height: 95vh;
+    height: 85vh;
 }
 
 .input{
@@ -33,7 +32,6 @@ body{
     align-items: center;
     justify-content: center;
     height: 45vh;
-    border: 1px solid  red;
 }
 
 input{
