@@ -71,3 +71,27 @@ function platesCount(){
 
       return color;
   }
+
+  function two(){
+      let input = document.getElementById('weight');
+      let value = parseFloat(input.value);
+      
+
+      input.value = value + 2.5;
+  }
+
+  function five(){
+    let input = document.getElementById('weight');
+    let value = parseFloat(input.value);
+    
+
+    input.value = value + 5;
+}
+
+function ten(){
+    let input = document.getElementById('weight');
+    let value = parseFloat(input.value);
+    
+
+    input.value = value + 10;
+}

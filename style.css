@@ -47,18 +47,38 @@ input{
     padding: 10px;
 }
 
-button{
+.count{
     display: block;
     height: 60px;
     width: 250px;
-    border: 3px solid red;
-    background-color: green;
-    color: var(--dark);
+    border: 3px solid #FFD74A;
+    background-color: var(--dark);
+    color: #FFD74A;
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
     padding: 10px;
     margin-top: 20px;
+}
+
+.buttons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons button{
+    width: 30%;
+    color: var(--dark);
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px solid var(--secondary);
+    background-color: var(--dark);
+    color: #FFD74A;
 }
 
 .divPlate{

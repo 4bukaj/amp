@@ -12,8 +12,13 @@
 
     <div class="container">
         <div class="input">
-            <input id="weight" type="text" inputmode="numeric" pattern="[0-9],">
-            <button class="count" onclick="platesCount()">COUNT</button>
+            <input id="weight" type="number">
+            <div class="buttons">
+                <button onclick="two()">+ 2,5</button>
+                <button onclick="five()">+ 5</button>
+                <button onclick="ten()">+ 10</button>
+            </div>
+            <button class="count" onclick="platesCount()">LICZ</button>
         </div>
         <div class="plates" id="plates">
 
