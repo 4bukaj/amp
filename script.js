@@ -49,6 +49,7 @@ function platesCount(){
             let divPlate = document.createElement('div');
             divPlate.classList.add('divPlate');
             divPlate.style.backgroundColor = colors(plates[i]);
+            divPlate.innerHTML = plates[i];
             div.appendChild(divPlate);
         }
     
